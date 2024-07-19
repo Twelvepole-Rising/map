@@ -1,0 +1,389 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.44215135105776,
+                    38.221596254589699
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "Name": "Twelvepole Trading Post",
+                "Type": "Cafe"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.444275499749551,
+                    38.21859056665312
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "Name": "LJ's Lounge",
+                "Type": "Restaurant"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.443127865093842,
+                    38.222225645791426
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "Name": "Gino's Pizza & Spaghetti House",
+                "Type": "Restaurant"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.444369557916687,
+                    38.22645025083505
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "Name": "Dollar General",
+                "Type": "Dollar Store"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.44367831401685,
+                    38.22651213807498
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "Name": "Sunco Gas Station",
+                "Type": "Gas Station"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.442090615241781,
+                    38.224557282762781
+                ]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "Name": "Wayne City Park",
+                "Type": "Recreation/Playgrounds"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.448173959912296,
+                    38.212414893044823
+                ]
+            },
+            "properties": {
+                "OBJECTID": 9,
+                "Name": "Twelvepole Valley Athletic Park",
+                "Type": "Recreation/Ball Fields"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.445537824925353,
+                    38.225368892144438
+                ]
+            },
+            "properties": {
+                "OBJECTID": 10,
+                "Name": "Wayne Dam",
+                "Type": "Dam"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.430262611729788,
+                    38.256638859453517
+                ]
+            },
+            "properties": {
+                "OBJECTID": 11,
+                "Name": "Walmart Plaza",
+                "Type": "Retail Store"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.431901660400356,
+                    38.256819044143057
+                ]
+            },
+            "properties": {
+                "OBJECTID": 12,
+                "Name": "Rocky Tops Pizza",
+                "Type": "Restaurant"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.43184040385465,
+                    38.256956027359209
+                ]
+            },
+            "properties": {
+                "OBJECTID": 13,
+                "Name": "China King",
+                "Type": "Restaurant"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.432621587474372,
+                    38.255198631655809
+                ]
+            },
+            "properties": {
+                "OBJECTID": 14,
+                "Name": "Wendy's",
+                "Type": "Restaurant"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.430063006737996,
+                    38.256346358225699
+                ]
+            },
+            "properties": {
+                "OBJECTID": 16,
+                "Name": "Subway",
+                "Type": "Restaurant"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.428909688307627,
+                    38.255517076532549
+                ]
+            },
+            "properties": {
+                "OBJECTID": 17,
+                "Name": "Dollar General",
+                "Type": "Restaurant"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.454505040072306,
+                    38.258588480631119
+                ]
+            },
+            "properties": {
+                "OBJECTID": 18,
+                "Name": "Elmcrest Farm",
+                "Type": "Farm"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.454461924017139,
+                    38.333246621630337
+                ]
+            },
+            "properties": {
+                "OBJECTID": 19,
+                "Name": "Great Outdoor Marine",
+                "Type": "Boat Dealer"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.450444503739305,
+                    38.339671578292183
+                ]
+            },
+            "properties": {
+                "OBJECTID": 20,
+                "Name": "Triple H Drive Inn",
+                "Type": "Restaurant"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.457635113479952,
+                    38.331346395466895
+                ]
+            },
+            "properties": {
+                "OBJECTID": 21,
+                "Name": "Creekside Golf Course Resturant",
+                "Type": "Restaurant"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.449506132815429,
+                    38.326608570773878
+                ]
+            },
+            "properties": {
+                "OBJECTID": 22,
+                "Name": "Gabby's 152 Tortilla Street",
+                "Type": "Restaurant"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.45527059558691,
+                    38.307936921897806
+                ]
+            },
+            "properties": {
+                "OBJECTID": 23,
+                "Name": "Sugarwood Golf Course",
+                "Type": "Recreation/Golf"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.45763295160593,
+                    38.33096948583681
+                ]
+            },
+            "properties": {
+                "OBJECTID": 24,
+                "Name": "Creekside Golf Course",
+                "Type": "Recreation/Golf"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.45526848827825,
+                    38.335494743942938
+                ]
+            },
+            "properties": {
+                "OBJECTID": 25,
+                "Name": "Exxon",
+                "Type": "Gas Station"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.446905071463163,
+                    38.297755927634761
+                ]
+            },
+            "properties": {
+                "OBJECTID": 26,
+                "Name": "Dam",
+                "Type": "Dam"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.413107061899282,
+                    38.304771728484774
+                ]
+            },
+            "properties": {
+                "OBJECTID": 27,
+                "Name": null,
+                "Type": "Boat Dealer"
+            }
+        }
+    ]
+}
