@@ -36,7 +36,7 @@ var fillingstationIcon = L.icon({
 });
 
 var farmIcon  = L.icon({
-    iconUrl: './images/icons/cow-export_green.png', // URL to your custom icon image
+    iconUrl: './images/icons/ne_barn-2_green.png', // URL to your custom icon image
     iconSize: [32, 37], // Size of the icon
     iconAnchor: [22, 38], // Point of the icon which will correspond to marker's location
     popupAnchor: [-3, -38] // Point from which the popup should open relative to the iconAnchor
@@ -51,6 +51,20 @@ var golfIcon  = L.icon({
 
 var accessIcon  = L.icon({
     iconUrl: './images/icons/kayaking_blue.png', // URL to your custom icon image
+    iconSize: [32, 37], // Size of the icon
+    iconAnchor: [22, 38], // Point of the icon which will correspond to marker's location
+    popupAnchor: [-3, -38] // Point from which the popup should open relative to the iconAnchor
+});
+
+var lakeMarinaIcon  = L.icon({
+    iconUrl: './images/icons/fishingboat_green.png', // URL to your custom icon image
+    iconSize: [32, 37], // Size of the icon
+    iconAnchor: [22, 38], // Point of the icon which will correspond to marker's location
+    popupAnchor: [-3, -38] // Point from which the popup should open relative to the iconAnchor
+});
+
+var streamgageIcon  = L.icon({
+    iconUrl: './images/icons/water_yellow.png', // URL to your custom icon image
     iconSize: [32, 37], // Size of the icon
     iconAnchor: [22, 38], // Point of the icon which will correspond to marker's location
     popupAnchor: [-3, -38] // Point from which the popup should open relative to the iconAnchor

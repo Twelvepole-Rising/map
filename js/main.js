@@ -1,5 +1,6 @@
-const riverAccess = 'data/Twelvepole_Access.geojson'
-const places = 'data/Twelvepole_Places.geojson'
+const riverAccess = 'data/Twelvepole_Access_v2.geojson'
+const places = 'data/Twelvepole_Places_v2.geojson'
+const streamgages = 'data/Twelvepole_streamgages.geojson'
 
 
 // Initialize the map
@@ -12,8 +13,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 addAccess(riverAccess)
 addPlaces(places)
+addStreamgages(streamgages)
 
-// Function to create a circle marker
 function pointToLayer(feature, latlng) {
   return L.circleMarker(latlng, style(feature));
 }
@@ -24,12 +25,12 @@ function getIcon(type) {
     case 'Boat Dealer':
     case 'Dollar Store':
     case 'Retail Store':
-      return retailIcon; // Red for type1
+      return retailIcon; 
     case 'Dam':
-      return damIcon; // Red for type1
+      return damIcon; 
     case 'Restaurant':
     case 'Cafe':
-      return restaurantIcon; // Blue for type2
+      return restaurantIcon;
     case 'Gas Station':
       return fillingstationIcon;
     case 'Recreation/Golf':
@@ -39,21 +40,11 @@ function getIcon(type) {
       return forestIcon;
     case 'Farm':
       return farmIcon;
+    case 'Lake Marina':
+      return lakeMarinaIcon;
     default: return '#00FF00'; // Green for others
   }
 }
-
-// Function to style each feature
-// function style(feature) {
-//   return {
-//     radius: 8,
-//     fillColor: getColor(feature.properties.Type),
-//     color: "#000",
-//     weight: 1,
-//     opacity: 1,
-//     fillOpacity: 0.8
-//   };
-// }
 
 function addPlaces(path) {
   fetch(path)
@@ -61,8 +52,7 @@ function addPlaces(path) {
     .then((data) => {
       L.geoJSON(data, {
         pointToLayer: function (feature, latlng) {
-
-          return L.marker(latlng, { icon: getIcon(feature.properties.Type) }).bindPopup(feature.properties.Name).openPopup();
+          return L.marker(latlng, { icon: getIcon(feature.properties.Type) }).bindPopup('<strong>'+feature.properties.Name+'</strong>' + '<br />  <a href="'+feature.properties.google_location+'" target ="_blank">Google Maps</a>').openPopup();
         }
       }).addTo(map);
     })
@@ -76,6 +66,20 @@ function addAccess(path) {
       L.geoJSON(data, {
         pointToLayer: function (feature, latlng) {
           return L.marker(latlng, { icon: accessIcon});
+        }
+      }).addTo(map);
+    })
+    .catch((error) => console.error('Error loading GeoJSON:', error));
+}
+
+function addStreamgages(path) {
+  fetch(path)
+    .then((response) => response.json())
+    .then((data) => {
+      L.geoJSON(data, {
+        pointToLayer: function (feature, latlng) {
+          // return L.marker(latlng, { icon: streamgageIcon});
+          return L.marker(latlng, { icon: streamgageIcon }).bindPopup('<strong>Streamgage: '+feature.properties.SID +'</strong><br /><br />'+feature.properties.Name+ '<br />  <a href="'+feature.properties.USGS_url+'" target ="_blank">USGS Streamgage Website</a>').openPopup();
         }
       }).addTo(map);
     })

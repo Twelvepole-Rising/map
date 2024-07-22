@@ -12,8 +12,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 49,
-                "Verified": "Y"
+                "OBJECTID_1": 49,
+                "Verified_Potential_Access_pt": "Y",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/zZmvssk9yM3gRE8t9"
             }
         },
         {
@@ -27,8 +29,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 50,
-                "Verified": "Y"
+                "OBJECTID_1": 50,
+                "Verified_Potential_Access_pt": "Y",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/KFBQtjBg3qCzzr5h9"
             }
         },
         {
@@ -42,8 +46,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 51,
-                "Verified": "Y"
+                "OBJECTID_1": 51,
+                "Verified_Potential_Access_pt": "Y",
+                "Type": "portage",
+                "google_location": "https://maps.app.goo.gl/3hXxEkSm9PEy9rKj9"
             }
         },
         {
@@ -57,8 +63,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 52,
-                "Verified": "Y"
+                "OBJECTID_1": 52,
+                "Verified_Potential_Access_pt": "Y",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/NGh8NLFCBaHueXJT8"
             }
         },
         {
@@ -72,8 +80,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 53,
-                "Verified": "Y"
+                "OBJECTID_1": 53,
+                "Verified_Potential_Access_pt": "Y",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/pWvYQiX6epvcXqQG7"
             }
         },
         {
@@ -87,8 +97,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 54,
-                "Verified": "Y"
+                "OBJECTID_1": 54,
+                "Verified_Potential_Access_pt": "Y",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/QGUJwZhLCj2B5y7n6"
             }
         },
         {
@@ -102,8 +114,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 55,
-                "Verified": "Y"
+                "OBJECTID_1": 55,
+                "Verified_Potential_Access_pt": "Y",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/p87d3oETnW4Hh4bG9"
             }
         },
         {
@@ -117,8 +131,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 56,
-                "Verified": "N"
+                "OBJECTID_1": 56,
+                "Verified_Potential_Access_pt": "N",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/A8MSpZmycZBw3RPJ6"
             }
         },
         {
@@ -132,8 +148,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 57,
-                "Verified": "Y"
+                "OBJECTID_1": 57,
+                "Verified_Potential_Access_pt": "Y",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/SPmsAyGTHov3bN6N6"
             }
         },
         {
@@ -147,8 +165,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 58,
-                "Verified": "N"
+                "OBJECTID_1": 58,
+                "Verified_Potential_Access_pt": "N",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/qa2EksemB2tcvxCGA"
             }
         },
         {
@@ -162,8 +182,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 59,
-                "Verified": "N"
+                "OBJECTID_1": 59,
+                "Verified_Potential_Access_pt": "N",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/zBEFFcyi4JQcsVui7"
             }
         },
         {
@@ -177,8 +199,10 @@
                 ]
             },
             "properties": {
-                "OBJECTID": 60,
-                "Verified": "Y"
+                "OBJECTID_1": 60,
+                "Verified_Potential_Access_pt": "Y",
+                "Type": null,
+                "google_location": "https://maps.app.goo.gl/pt33VNCMj96ARyg26"
             }
         }
     ]
