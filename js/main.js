@@ -10,8 +10,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap contributors',
 }).addTo(map);
 
-// addGeoJson(riverAccess)
-addGeoJson(places)
+addAccess(riverAccess)
+addPlaces(places)
 
 // Function to create a circle marker
 function pointToLayer(feature, latlng) {
@@ -20,7 +20,6 @@ function pointToLayer(feature, latlng) {
 
 // Function to determine color based on feature properties
 function getIcon(type) {
-  console.log(retailIcon)
   switch (type) {
     case 'Boat Dealer':
     case 'Dollar Store':
@@ -56,21 +55,29 @@ function getIcon(type) {
 //   };
 // }
 
-function addGeoJson(data) {
-  fetch(data)
+function addPlaces(path) {
+  fetch(path)
     .then((response) => response.json())
     .then((data) => {
       L.geoJSON(data, {
         pointToLayer: function (feature, latlng) {
-          return L.marker(latlng, { icon: getIcon(feature.properties.Type) });
-      }
+
+          return L.marker(latlng, { icon: getIcon(feature.properties.Type) }).bindPopup(feature.properties.Name).openPopup();
+        }
       }).addTo(map);
     })
     .catch((error) => console.error('Error loading GeoJSON:', error));
 }
-// fetch(riverAccess)
-//   .then((response) => response.json())
-//   .then((data) => {
-//     L.geoJSON(data).addTo(map);
-//   })
-//   .catch((error) => console.error('Error loading GeoJSON:', error));
+
+function addAccess(path) {
+  fetch(path)
+    .then((response) => response.json())
+    .then((data) => {
+      L.geoJSON(data, {
+        pointToLayer: function (feature, latlng) {
+          return L.marker(latlng, { icon: accessIcon});
+        }
+      }).addTo(map);
+    })
+    .catch((error) => console.error('Error loading GeoJSON:', error));
+}

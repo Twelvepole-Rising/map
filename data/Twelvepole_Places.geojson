@@ -222,7 +222,7 @@
             "properties": {
                 "OBJECTID": 17,
                 "Name": "Dollar General",
-                "Type": "Restaurant"
+                "Type": "Dollar Store"
             }
         },
         {
@@ -368,22 +368,7 @@
                 "Name": "Dam",
                 "Type": "Dam"
             }
-        },
-        {
-            "type": "Feature",
-            "id": 27,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -82.413107061899282,
-                    38.304771728484774
-                ]
-            },
-            "properties": {
-                "OBJECTID": 27,
-                "Name": null,
-                "Type": "Boat Dealer"
-            }
         }
+       
     ]
 }
