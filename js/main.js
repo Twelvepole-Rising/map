@@ -42,6 +42,11 @@ function getIcon(type) {
       return farmIcon;
     case 'Lake Marina':
       return lakeMarinaIcon;
+    case 'Takeout':
+    case 'Portage Takeout':
+      return takeoutIcon;    
+    case 'Combined Access':
+      return combinedaccessIcon;
     default: return '#00FF00'; // Green for others
   }
 }
@@ -65,7 +70,7 @@ function addAccess(path) {
     .then((data) => {
       L.geoJSON(data, {
         pointToLayer: function (feature, latlng) {
-          return L.marker(latlng, { icon: accessIcon});
+          return L.marker(latlng, { icon: getIcon(feature.properties.Type)});
         }
       }).addTo(map);
     })
