@@ -4,7 +4,7 @@ const streamgages = 'data/Twelvepole_streamgages.geojson'
 
 
 // Initialize the map
-var map = L.map('map').setView([38.28023543166722, -82.45273397151891], 13);
+var map = L.map('map').setView([38.280235, -82.452734], 12);
 
 // Add a tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
