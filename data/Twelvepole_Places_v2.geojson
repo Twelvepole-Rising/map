@@ -134,7 +134,7 @@
                 "OBJECTID": 10,
                 "Name": "Wayne Dam",
                 "Type": "Dam",
-                "google_location": null
+                "google_location": "https://maps.app.goo.gl/KTGimR5cfrZZuJLd9"
             }
         },
         {
@@ -389,7 +389,7 @@
                 "OBJECTID": 26,
                 "Name": "Dam",
                 "Type": "Dam",
-                "google_location": null
+                "google_location": "https://maps.app.goo.gl/4WiCg74tjDQZYkTeA"
             }
         },
         {
