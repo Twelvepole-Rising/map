@@ -28,7 +28,7 @@ function loadGeoJSON(url) {
                         'Cafe': restaurantIcon,
                         'Gas Station': fillingstationIcon,
                         'Recreation/Golf': golfIcon,
-                        'Recreation/Ball Fields': forestIcon,
+                        'Recreation/Ball Fields': baseballIcon,
                         'Recreation/Playgrounds': forestIcon,
                         'Farm': farmIcon,
                         'Lake Marina': lakeMarinaIcon,
