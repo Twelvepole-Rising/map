@@ -46,7 +46,7 @@ function loadGeoJSON(url) {
                         layer.bindPopup('<strong>Streamgage: ' + feature.properties.SID + '</strong><br /><br />' + feature.properties.Name + '<br />  <a href="' + feature.properties.USGS_url + '" target ="_blank">USGS Streamgage Website</a>');
                     }
                     else if (feature.properties && ["Combined Access", "Takeout", "Portage Takeout"].includes(feature.properties.Type)){
-                        layer.bindPopup(((feature.properties.Type) == 'Combined Access' ?  'Creek Access Point': 'Creek Takeout Point') + '<br /> <a href="'+ feature.properties.google_location + '" target ="_blank">Google Maps</a>');
+                        layer.bindPopup(((feature.properties.Type) == 'Combined Access' ?  'Creek Access Spot': 'Creek Takeout Spot') + '<br /> <a href="'+ feature.properties.google_location + '" target ="_blank">Google Maps</a>');
                     }
                     else if (feature.properties && feature.properties.google_location){
                         layer.bindPopup('<strong>' + feature.properties.Name + '</strong>' + '<br />  <a href="' + feature.properties.google_location + '" target ="_blank">Google Maps</a>');
