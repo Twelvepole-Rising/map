@@ -2,3 +2,4 @@
 *.js.map
 *.backup
 leaflet-src.js
+temp.html
