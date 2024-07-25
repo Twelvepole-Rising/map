@@ -1,3 +1,4 @@
 *.esm.js
 *.js.map
+*.backup
 leaflet-src.js
