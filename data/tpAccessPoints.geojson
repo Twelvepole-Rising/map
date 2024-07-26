@@ -113,22 +113,7 @@
                 "google_location": "https://maps.app.goo.gl/p87d3oETnW4Hh4bG9"
             }
         },
-        {
-            "type": "Feature",
-            "id": 56,
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -82.447785143772705,
-                    38.271278094872279
-                ]
-            },
-            "properties": {
-                "OBJECTID_1": 56,
-                "Type": "Combined Access",
-                "google_location": "https://maps.app.goo.gl/A8MSpZmycZBw3RPJ6"
-            }
-        },
+       
         {
             "type": "Feature",
             "id": 57,
