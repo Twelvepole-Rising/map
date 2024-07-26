@@ -24,12 +24,12 @@ html {
   box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
   z-index: 1000;
 }
-.popup img {
-  max-width: 100%;
-  height: auto;
-  display: block; /* Ensure image is treated as block element */
-  margin: 0 auto; /* Center image horizontally */
-}
+        .popup img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Ensure image is treated as block element */
+            margin: 0 auto; /* Center image horizontally */
+        }
 .popup-close {
   position: absolute;
   top: 10px;
@@ -45,10 +45,4 @@ html {
   height: 100%;
   background-color: rgba(0,0,0,0.5);
   z-index: 999;
-}
-.leaflet-bar .leaflet-control-custom {
-  /* background: url('../images/icons/TwelvepoleRising_Icon.png') no-repeat center center; */
-  background-size: 20px 20px;
-  width: 34px;
-  height: 34px;
 }

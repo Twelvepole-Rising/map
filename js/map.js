@@ -9,10 +9,10 @@ function initializeMap() {
 
     // Add a scale control with options
     L.control.scale({
-        position: 'bottomleft', // Position of the scale control
-        maxWidth: 200,          // Maximum width of the scale control in pixels
-        metric: false,           // Display metric scale
-        imperial: true         // Do not display imperial scale
+        position: 'bottomleft', 
+        maxWidth: 200,          
+        metric: false,           
+        imperial: true         
     }).addTo(map);
 
     var customControl = L.Control.extend({
@@ -24,7 +24,7 @@ function initializeMap() {
 
             container.style.backgroundColor = 'white';
             container.style.backgroundImage = "url('./images/icons/TwelvepoleRising_Icon.png')";
-            container.style.backgroundSize = "73px 73px"; // Adjust size accordingly
+            container.style.backgroundSize = "73px 73px"; 
             container.style.width = '73px';
             container.style.height = '73px';
             container.style.cursor = 'pointer';
