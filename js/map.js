@@ -3,9 +3,11 @@ var map;
 function initializeMap() {
     map = L.map('map').setView([38.280235, -82.452734], 12);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors | <a href="https://mapicons.mapsmarker.com" target="_blank">Maps Icons Collection</a> ',
-    }).addTo(map);
+    map.attributionControl.setPrefix(
+        '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      );
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
     // Add a scale control with options
     L.control.scale({
