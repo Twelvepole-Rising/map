@@ -1,8 +1,8 @@
 var map;
 
 function initializeMap() {
-    map = L.map('map').setView([38.280235, -82.452734], 12);
-
+    map = L.map('map').setView([38.2505397, -82.4420135], 13);
+   
     map.attributionControl.setPrefix(
         '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       );
