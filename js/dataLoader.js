@@ -40,7 +40,7 @@ function loadGeoJSON(url) {
                 },
                 onEachFeature: function (feature, layer) {
                     if (feature.properties && feature.properties.segment) {
-                        layer.bindPopup('<strong>Creek Segment #' + feature.properties.segment +'</strong><br /> Approx. '+ feature.properties.segment_length_miles+' (mi)');
+                        layer.bindPopup('<strong>Creek Segment #' + feature.properties.segment +'</strong><br /> Approx. '+ feature.properties.segment_length_miles.toFixed(1)+' (mi)');
                     }
                     else if (feature.properties && feature.properties.Type == "Streamgage"){
                         layer.bindPopup('<strong>Streamgage: ' + feature.properties.SID + '</strong><br /><br />' + feature.properties.Name + '<br />  <a href="' + feature.properties.USGS_url + '" target ="_blank">USGS Streamgage Website</a>');
