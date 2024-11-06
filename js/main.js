@@ -23,3 +23,8 @@ document.getElementById('overlay').addEventListener('click', function() {
   document.getElementById('popup').style.display = 'none';
   document.getElementById('overlay').style.display = 'none';
 });
+
+// JavaScript to trigger the print dialog
+document.getElementById("printButton").onclick = function() {
+  window.print();  // Opens the print dialog
+};

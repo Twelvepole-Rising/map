@@ -46,3 +46,19 @@ html {
   background-color: rgba(0,0,0,0.5);
   z-index: 999;
 }
+
+#printButton {
+  position: absolute;
+  top: 100px;  /* Adjust the distance from the top */
+  right: 10px;  /* Position the button on the right side */
+  width: 73px;  /* Set the width to 73px */
+  padding: 10px;
+  background-color: #0a20e6;
+  color: white;
+  font-size: 16px;  /* Adjust the font size to fit within the smaller button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;  /* Centers the text inside the button */
+  z-index: 1000; /* Make sure the button is above the map */
+}
